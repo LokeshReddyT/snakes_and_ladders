@@ -1,6 +1,5 @@
 import random
 import time
-
 snakeladders={}
 for i in range(5):
   p=random.randrange(0,60)
@@ -9,11 +8,7 @@ for i in range(5):
   s=random.randrange(1,r-10)
   snakeladders[p]=q
   snakeladders[r]=s
-
 opt1={}
-      
-
-
 def opt():
   adv=[91,90,71,70,51,50,31,30,11,10]
   b=[]
