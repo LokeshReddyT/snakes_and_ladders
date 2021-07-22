@@ -104,7 +104,7 @@ for i in range(no_of_players):
   opt3.append(opt4)
   players_name.append(player_name)
   players_list[player_name]=0
-print((snakeladders))
+print("snakes and ladders for this game are",snakeladders)
 while True:
   if players_list[players_name[i]]==0:
     opt()
